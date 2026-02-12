@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { Plus, Minus } from "lucide-react";
-
 const faqs = [
   {
     q: "O que é automação residencial e quais seus benefícios?",
@@ -49,8 +46,6 @@ const faqs = [
 ];
 
 const FAQ = () => {
-  const [open, setOpen] = useState<number | null>(null);
-
   return (
     <section id="faq" className="py-20 bg-secondary">
       <div className="container mx-auto px-4 max-w-4xl">
@@ -62,20 +57,12 @@ const FAQ = () => {
         <div className="space-y-4">
           {faqs.map((faq, i) => (
             <div key={i} className="rounded-xl overflow-hidden shadow-sm">
-              <button
-                onClick={() => setOpen(open === i ? null : i)}
-                className="w-full flex items-center justify-between bg-primary text-white p-5 text-left font-semibold text-sm md:text-base"
-              >
-                <span>{faq.q}</span>
-                <span className="gradient-cta w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ml-3">
-                  {open === i ? <Minus size={16} /> : <Plus size={16} />}
-                </span>
-              </button>
-              {open === i && (
-                <div className="bg-card p-5 text-muted-foreground text-sm leading-relaxed">
-                  {faq.a}
-                </div>
-              )}
+              <div className="bg-primary text-white p-5 font-semibold text-sm md:text-base">
+                {faq.q}
+              </div>
+              <div className="bg-card p-5 text-muted-foreground text-sm leading-relaxed">
+                {faq.a}
+              </div>
             </div>
           ))}
         </div>
