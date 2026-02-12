@@ -114,7 +114,7 @@ const Footer = () => (
 
       {/* Bottom */}
       <div className="border-t border-white/10 pt-6 text-center text-xs opacity-70">
-        <p>© 2026 - Automação Residencial Avançada. Todos os direitos reservados.</p>
+        <p>2026 - Automação Residencial Avançada.</p>
         <p className="mt-1">
           Criação e Otimização SEO -{" "}
           <a
