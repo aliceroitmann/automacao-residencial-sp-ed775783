@@ -43,6 +43,42 @@ const faqs = [
     q: "Vocês oferecem garantia e suporte técnico após a instalação?",
     a: "Oferecemos garantia de 24 meses em todos os equipamentos e 12 meses para serviços de instalação. Nosso suporte técnico funciona 7 dias por semana, das 8h às 22h, com atendimento remoto que resolve aproximadamente 80% dos chamados sem necessidade de visita presencial. Quando necessário, realizamos visitas técnicas em até 48 horas. As atualizações de software são gratuitas e automáticas, incluímos treinamento completo para a família, oferecemos planos de manutenção preventiva semestrais e entregamos um manual digital completo do seu sistema personalizado.",
   },
+  {
+    q: "A automação residencial funciona durante quedas de energia ou internet?",
+    a: "Sim! Nossos sistemas são projetados com redundância. Utilizamos nobreaks e baterias de backup que mantêm os dispositivos essenciais funcionando por até 4 horas sem energia elétrica. O processamento local garante que cenários básicos como iluminação, fechaduras e alarmes continuem operando mesmo sem conexão à internet. Ao retornar a energia, o sistema restabelece automaticamente todas as configurações. Além disso, fechaduras inteligentes possuem chave mecânica de emergência e os portões contam com destravamento manual.",
+  },
+  {
+    q: "Como a automação residencial aumenta a segurança da minha casa?",
+    a: "A automação eleva a segurança a um nível incomparável com múltiplas camadas de proteção. Câmeras com inteligência artificial detectam movimentos suspeitos e enviam alertas instantâneos ao celular. Sensores de abertura em portas e janelas acionam alarmes sonoros e notificações. A simulação de presença programa luzes e cortinas para simular ocupação quando você viaja. Fechaduras biométricas registram cada acesso com data e horário. Sensores de fumaça, gás e alagamento acionam alertas e desligam dispositivos automaticamente, protegendo sua família 24 horas por dia.",
+  },
+  {
+    q: "O que é uma casa inteligente com cenários personalizados?",
+    a: "Cenários são rotinas automatizadas que ativam múltiplos dispositivos simultaneamente com um único comando. Por exemplo, o cenário 'Bom Dia' abre as cortinas gradualmente, liga as luzes na intensidade ideal, ajusta o ar-condicionado e inicia sua playlist favorita. O cenário 'Saindo de Casa' desliga todas as luzes, ativa o alarme, fecha cortinas e reduz a climatização. Você pode criar cenários ilimitados personalizados para cada momento do dia, ativados por voz, aplicativo, horário programado ou até pela sua localização GPS.",
+  },
+  {
+    q: "Como funciona a automação de iluminação inteligente?",
+    a: "A iluminação inteligente permite controlar intensidade, cor e temperatura de cada lâmpada individualmente ou por ambiente. Programações automáticas ajustam a luz conforme o horário — mais quente à noite para favorecer o sono, mais fria durante o dia para produtividade. Sensores de presença acendem e apagam luzes automaticamente, e sensores de luminosidade ajustam o brilho conforme a luz natural. Tudo pode ser controlado por voz, aplicativo ou painéis touch. A economia com iluminação LED inteligente pode chegar a 85% comparada com lâmpadas convencionais.",
+  },
+  {
+    q: "É possível automatizar cortinas e persianas?",
+    a: "Sim, a motorização de cortinas e persianas é um dos serviços mais procurados. Instalamos motores silenciosos e compactos compatíveis com praticamente todos os tipos de cortinas — rolo, romana, painel, persiana horizontal e vertical. A programação por horário permite que as cortinas abram com o nascer do sol e fechem ao entardecer. Sensores de luminosidade e temperatura ajustam automaticamente para bloquear calor excessivo, reduzindo o uso de ar-condicionado em até 25%. O controle é feito por voz, aplicativo ou controle remoto dedicado.",
+  },
+  {
+    q: "Como funciona o sistema de som multiroom?",
+    a: "O áudio multiroom distribui música de alta qualidade por todos os ambientes da casa de forma independente. Cada cômodo pode tocar uma música diferente ou todos podem ser sincronizados para uma mesma playlist. Utilizamos caixas de som embutidas no teto ou parede, soundbars premium e subwoofers discretos. A integração com Spotify, Apple Music, Deezer e rádios online é nativa. O controle é feito por voz, aplicativo ou painéis na parede. Em festas, o modo 'Party' sincroniza toda a casa com equalizações personalizadas por ambiente.",
+  },
+  {
+    q: "A automação residencial valoriza meu imóvel?",
+    a: "Sim, significativamente! Estudos de mercado indicam que imóveis com automação residencial podem valorizar de 10% a 25% em relação a imóveis similares sem tecnologia. Compradores e locatários estão cada vez mais buscando casas inteligentes pelo conforto e economia que oferecem. A infraestrutura de automação é considerada uma benfeitoria permanente do imóvel. Além da valorização direta, a economia de energia proporcionada pelo sistema reduz os custos operacionais da residência, tornando-a ainda mais atrativa no mercado imobiliário.",
+  },
+  {
+    q: "Quanto tempo leva para instalar um sistema completo de automação?",
+    a: "O prazo varia conforme a complexidade do projeto. Para apartamentos com automação básica (iluminação e cortinas), a instalação leva de 1 a 2 dias úteis. Projetos de médio porte com múltiplos sistemas integrados ficam entre 3 e 7 dias úteis. Residências de alto padrão com automação completa podem levar de 10 a 20 dias úteis. Em reformas e construções novas, trabalhamos em paralelo com outros profissionais para otimizar o cronograma. Toda instalação é agendada para minimizar o impacto na rotina da família, e realizamos limpeza completa ao final.",
+  },
+  {
+    q: "Como faço para solicitar um orçamento de automação residencial?",
+    a: "O processo é simples e sem compromisso! Você pode solicitar um orçamento gratuito pelo WhatsApp, telefone ou formulário do site. Nossa equipe técnica agenda uma visita presencial à sua residência para entender suas necessidades, avaliar a infraestrutura existente e apresentar as melhores soluções. Em até 48 horas após a visita, enviamos uma proposta detalhada com escopo do projeto, equipamentos recomendados, prazo de instalação e valor do investimento com opções de parcelamento. A consultoria inicial é totalmente gratuita e sem compromisso.",
+  },
 ];
 
 const FAQ = () => {
