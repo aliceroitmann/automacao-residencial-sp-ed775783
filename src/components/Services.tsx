@@ -7,6 +7,7 @@ interface ServiceCard {
   description: string;
   benefits: string[];
   whatsappMsg: string;
+  externalLink?: string;
 }
 
 const services: ServiceCard[] = [
@@ -26,6 +27,7 @@ const services: ServiceCard[] = [
       "Simulação de presença",
     ],
     whatsappMsg: "Gostaria de um orçamento para Automação de Iluminação Inteligente",
+    externalLink: "https://automacaoresidencial.app.br/servicos/automacao-iluminacao/",
   },
   {
     icon: "🪟",
@@ -39,6 +41,7 @@ const services: ServiceCard[] = [
       "Integração com iluminação/climatização",
     ],
     whatsappMsg: "Gostaria de um orçamento para Controle de Cortinas e Persianas Motorizadas",
+    externalLink: "https://automacaoresidencial.app.br/servicos/automacao-persianas-e-cortinas/",
   },
   {
     icon: "🎵",
@@ -52,6 +55,21 @@ const services: ServiceCard[] = [
       "App centralizado intuitivo",
     ],
     whatsappMsg: "Gostaria de um orçamento para Sistema de Áudio e Vídeo Multiroom",
+    externalLink: "https://automacaoresidencial.app.br/servicos/som-ambiente-automacao/",
+  },
+  {
+    icon: "🎬",
+    title: "Home Theater e Cinema em Casa",
+    description:
+      "Transforme um cômodo da sua residência em uma verdadeira sala de cinema com nosso projeto de home theater completo. Projetores 4K de última geração, telas motorizadas, sistemas de som surround Dolby Atmos 7.1.4 e tratamento acústico profissional. Integração total com automação de iluminação, cortinas e climatização para criar a experiência cinematográfica perfeita com um único comando. Projetos personalizados para salas dedicadas ou ambientes integrados.",
+    benefits: [
+      "Projetor 4K e tela motorizada",
+      "Som surround Dolby Atmos",
+      "Tratamento acústico profissional",
+      "Integração total com automação",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Home Theater e Cinema em Casa",
+    externalLink: "https://automacaoresidencial.app.br/servicos/home-theater-cinema/",
   },
   {
     icon: "❄️",
@@ -65,6 +83,7 @@ const services: ServiceCard[] = [
       "Integração com cenários",
     ],
     whatsappMsg: "Gostaria de um orçamento para Controle de Climatização Inteligente",
+    externalLink: "https://automacaoresidencial.app.br/servicos/automacao-de-ar-condicionado/",
   },
   {
     icon: "🔒",
@@ -78,6 +97,7 @@ const services: ServiceCard[] = [
       "Simulação de presença",
     ],
     whatsappMsg: "Gostaria de um orçamento para Segurança Eletrônica Residencial",
+    externalLink: "https://automacaoresidencial.app.br/servicos/sistema-de-seguranca/",
   },
   {
     icon: "🚪",
@@ -91,6 +111,7 @@ const services: ServiceCard[] = [
       "Histórico completo com notificações",
     ],
     whatsappMsg: "Gostaria de um orçamento para Controle de Acesso Inteligente",
+    externalLink: "https://automacaoresidencial.app.br/servicos/controle-de-acesso/",
   },
   {
     icon: "🎭",
@@ -117,6 +138,77 @@ const services: ServiceCard[] = [
       "Redes segregadas segurança",
     ],
     whatsappMsg: "Gostaria de um orçamento para Internet Cabeada e Wi-Fi",
+    externalLink: "https://automacaoresidencial.app.br/servicos/internet-cabeada-e-wi-fi/",
+  },
+  {
+    icon: "🗣️",
+    title: "Assistente de Voz Integrado",
+    description:
+      "Controle toda a sua casa inteligente com comandos de voz naturais através de assistentes como Alexa, Google Assistente e Siri. Configure rotinas personalizadas como 'Boa noite' para trancar portas, apagar luzes e ativar alarmes. Integração com todos os dispositivos de automação, controle de música, informações de clima e trânsito, e muito mais. Instalação de alto-falantes inteligentes estrategicamente posicionados para cobertura em todos os ambientes.",
+    benefits: [
+      "Alexa, Google e Siri integrados",
+      "Rotinas por comando de voz",
+      "Cobertura em todos os ambientes",
+      "Integração total com automação",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Assistente de Voz Integrado",
+    externalLink: "https://automacaoresidencial.app.br/servicos/assistente-de-voz/",
+  },
+  {
+    icon: "🏠",
+    title: "Automação para AIRBNB",
+    description:
+      "Maximize a rentabilidade do seu imóvel no Airbnb com automação inteligente. Check-in e check-out automatizados com fechaduras digitais e senhas temporárias por reserva. Controle remoto de climatização, iluminação e limpeza programada. Monitoramento de ruído para evitar festas não autorizadas e economia de energia entre estadias. Gestão simplificada de múltiplos imóveis pelo smartphone com relatórios de consumo e ocupação.",
+    benefits: [
+      "Check-in/out automatizado",
+      "Senhas temporárias por reserva",
+      "Monitoramento de ruído",
+      "Gestão remota múltiplos imóveis",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Automação para AIRBNB",
+    externalLink: "https://automacaoresidencial.app.br/servicos/automacao-airbnb/",
+  },
+  {
+    icon: "🏨",
+    title: "Automação para BOOKING",
+    description:
+      "Otimize a gestão do seu imóvel no Booking.com com soluções de automação dedicadas. Controle de acesso inteligente com códigos únicos por hóspede, climatização automática antes do check-in, iluminação de boas-vindas e monitoramento remoto completo. Economia de energia quando o imóvel está desocupado, alertas de manutenção preventiva e integração com plataformas de gestão de reservas para uma operação profissional e eficiente.",
+    benefits: [
+      "Códigos únicos por hóspede",
+      "Climatização pré-check-in",
+      "Economia entre reservas",
+      "Integração com gestão de reservas",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Automação para BOOKING",
+    externalLink: "https://automacaoresidencial.app.br/servicos/automacao-booking/",
+  },
+  {
+    icon: "🏊",
+    title: "Automação de Piscina e Jardim",
+    description:
+      "Automatize o cuidado com sua piscina e jardim com tecnologia inteligente. Controle de bombas, filtros e dosagem de produtos químicos da piscina pelo smartphone. Irrigação automatizada do jardim com sensores de umidade do solo e previsão meteorológica. Iluminação paisagística programável, controle de aquecimento da piscina e monitoramento da qualidade da água em tempo real. Economia de água e energia com programação inteligente.",
+    benefits: [
+      "Controle de piscina pelo app",
+      "Irrigação inteligente com sensores",
+      "Iluminação paisagística automatizada",
+      "Monitoramento qualidade da água",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Automação de Piscina e Jardim",
+    externalLink: "https://automacaoresidencial.app.br/automacao-piscina-e-jardim/",
+  },
+  {
+    icon: "☀️",
+    title: "Energia Solar com Automação",
+    description:
+      "Combine energia solar fotovoltaica com automação residencial para máxima eficiência energética. Monitoramento em tempo real da geração e consumo de energia, gestão inteligente de cargas para priorizar o uso da energia solar, integração com baterias de armazenamento e controle automatizado de dispositivos conforme a disponibilidade de energia. Reduza sua conta de luz em até 95% e acompanhe todo o sistema pelo smartphone.",
+    benefits: [
+      "Monitoramento geração em tempo real",
+      "Gestão inteligente de cargas",
+      "Integração com baterias",
+      "Redução de até 95% na conta de luz",
+    ],
+    whatsappMsg: "Gostaria de um orçamento para Energia Solar com Automação",
+    externalLink: "https://automacaoresidencial.app.br/servicos/energia-solar-com-automacao/",
   },
 ];
 
@@ -129,7 +221,15 @@ const ServiceCardComponent = ({ service }: { service: ServiceCard }) => {
         {service.icon}
       </div>
       <div className="p-6 flex flex-col flex-1">
-        <h3 className="text-clamp-h3 text-foreground mb-3">{service.title}</h3>
+        <h3 className="text-clamp-h3 text-foreground mb-3">
+          {service.externalLink ? (
+            <a href={service.externalLink} target="_blank" rel="noopener" className="hover:text-primary-vibrant transition-colors">
+              {service.title}
+            </a>
+          ) : (
+            service.title
+          )}
+        </h3>
         <p className={`text-muted-foreground text-sm leading-relaxed mb-4 ${!expanded ? "line-clamp-4" : ""}`}>
           {service.description}
         </p>
@@ -147,6 +247,16 @@ const ServiceCardComponent = ({ service }: { service: ServiceCard }) => {
               </li>
             ))}
           </ul>
+        )}
+        {service.externalLink && (
+          <a
+            href={service.externalLink}
+            target="_blank"
+            rel="noopener"
+            className="text-primary-vibrant text-sm font-medium mb-4 inline-block hover:underline"
+          >
+            Saiba mais sobre este serviço →
+          </a>
         )}
         <a
           href={`https://wa.me/5511975596711?text=${encodeURIComponent(service.whatsappMsg)}`}
