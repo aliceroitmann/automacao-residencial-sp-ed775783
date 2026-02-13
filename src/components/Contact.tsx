@@ -4,10 +4,13 @@ const Contact = () => (
   <section id="contato" className="py-24 gradient-hero text-white text-center">
     <div className="container mx-auto px-4 max-w-2xl">
       <h2 className="text-clamp-h2 font-poppins font-bold mb-4">
-        Pronto para Transformar Sua Residência em um Lar Inteligente?
+        Pronto para Transformar a Iluminação da Sua Residência?
       </h2>
-      <p className="opacity-90 mb-8 text-lg">
-        Entre em contato com nossa equipe especializada e receba um projeto personalizado para sua casa ou apartamento em São Paulo.
+      <p className="opacity-90 mb-4 text-lg">
+        A Automations São Paulo é a escolha certa para quem busca excelência em automação de iluminação inteligente. Projetos exclusivos, tecnologia de ponta e atendimento premium em toda São Paulo.
+      </p>
+      <p className="opacity-80 mb-8 text-base">
+        Solicite agora sua consultoria gratuita e descubra como a iluminação inteligente pode revolucionar o conforto, a economia e a sofisticação do seu lar.
       </p>
       <p className="text-4xl font-bold font-poppins mb-2 flex items-center justify-center gap-3">
         📱 (11) 97559-6711
@@ -15,12 +18,12 @@ const Contact = () => (
       <p className="opacity-80 mb-8">Segunda a Sexta: 9h - 18h | Sábados: 9h - 13h</p>
       <div className="flex flex-col items-center gap-4">
         <a
-          href="https://wa.me/5511975596711?text=Olá! Vim pelo site e gostaria de solicitar um orçamento para automação residencial."
+          href="https://wa.me/5511975596711?text=Olá! Vim pelo site da Automations São Paulo e gostaria de solicitar um orçamento para automação de iluminação."
           rel="nofollow"
           target="_blank"
           className="inline-flex items-center gap-2 bg-whatsapp text-white font-bold text-lg px-8 py-4 rounded-full hover:scale-[1.02] transition-transform min-w-[280px] justify-center shadow-lg"
         >
-          📱 ORÇAMENTO PELO WHATSAPP - AQUI!
+          💡 SOLICITAR ORÇAMENTO GRATUITO
         </a>
         <a
           href="tel:+5511975596711"

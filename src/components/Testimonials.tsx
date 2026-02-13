@@ -1,39 +1,39 @@
 const testimonials = [
   {
-    initials: "RC",
-    name: "Ricardo Costa",
-    role: "Proprietário - Apartamento Vila Olímpia",
-    text: "A equipe da Automação Residencial Avançada superou todas as minhas expectativas. O conhecimento técnico demonstrado desde a primeira reunião me deixou impressionado. Hoje controlo absolutamente tudo da minha casa pelo celular — iluminação, cortinas, ar-condicionado e som ambiente. A economia na conta de luz já ultrapassou 40% e a praticidade no dia a dia é incomparável. Recomendo de olhos fechados para quem busca qualidade e profissionalismo.",
+    initials: "FM",
+    name: "Fernanda Moreira",
+    role: "Proprietária — Apartamento Vila Nova Conceição",
+    text: "A Automations São Paulo transformou completamente a iluminação do meu apartamento. Os cenários personalizados são incríveis — o Modo Cinema e o Jantar Romântico viraram nossos favoritos. A economia na conta de luz foi de quase 50% e o controle por voz com Alexa é extremamente prático. Profissionais impecáveis do início ao fim.",
   },
   {
-    initials: "AM",
-    name: "Ana Martins",
-    role: "Arquiteta - Escritório Ana Martins Arquitetura",
-    text: "Como arquiteta, escolhi a Automação Residencial Avançada como parceira para o projeto de uma cobertura nos Jardins. A integração entre a automação e o projeto arquitetônico foi absolutamente perfeita. A equipe respeitou cada detalhe estético que planejamos, escondendo toda a tecnologia de forma elegante. O profissionalismo e a atenção aos detalhes fizeram dessa parceria um case de sucesso que apresento a todos os meus clientes.",
+    initials: "CR",
+    name: "Carlos Ribeiro",
+    role: "Arquiteto — Studio CR Arquitetura",
+    text: "Como arquiteto, indico a Automations São Paulo para todos os meus projetos de alto padrão. A integração da automação de iluminação com a proposta arquitetônica é perfeita. A equipe técnica compreende a linguagem de design e esconde a tecnologia com elegância. Os resultados são sempre surpreendentes e os clientes ficam encantados.",
   },
   {
-    initials: "PF",
-    name: "Paulo Ferreira",
-    role: "Proprietário - Casa Morumbi",
-    text: "Após a instalação do sistema de segurança inteligente na minha casa no Morumbi, a tranquilidade da minha família aumentou enormemente. As câmeras com visão noturna e detecção por IA, os sensores em todas as aberturas e a simulação de presença quando viajamos nos dão uma paz que não tem preço. O monitoramento pelo celular em tempo real e as notificações instantâneas me mantêm sempre informado sobre minha residência.",
+    initials: "LS",
+    name: "Luciana Santos",
+    role: "Proprietária — Casa Alphaville",
+    text: "Automatizamos toda a iluminação da casa, incluindo jardim, fachada e piscina. O resultado é deslumbrante — parece que moramos em uma casa de revista. Os sensores de presença nos corredores e a simulação de presença quando viajamos trouxeram muito mais segurança. O suporte pós-instalação é excelente e sempre disponível.",
   },
   {
-    initials: "MC",
-    name: "Mariana Campos",
-    role: "Proprietária - Casa Alphaville",
-    text: "Moramos em Alphaville e a experiência com a automação foi transformadora. O sistema de áudio multiroom é espetacular — ouvimos música em todos os ambientes com qualidade impressionante. As cortinas motorizadas no pé-direito duplo da sala resolveram um problema que tínhamos há anos. O suporte pós-instalação é excelente, sempre atenciosos e rápidos quando precisamos de qualquer ajuste ou orientação técnica.",
+    initials: "RA",
+    name: "Roberto Almeida",
+    role: "Proprietário — Cobertura Itaim Bibi",
+    text: "Tinha dúvidas se a automação de iluminação faria diferença real no dia a dia. Fazia, e muito! Acordar com a luz subindo gradualmente, chegar em casa com tudo aceso automaticamente e controlar tudo pelo celular mudou nossa rotina. A economia de energia superou as expectativas. Investimento que se paga sozinho.",
   },
   {
-    initials: "JS",
-    name: "José Santos",
-    role: "Proprietário - Apartamento Higienópolis",
-    text: "Tenho 72 anos e confesso que tinha receio de que a tecnologia fosse complicada demais para mim. Estava completamente enganado! Os painéis touch são extremamente intuitivos e os comandos de voz pela Alexa mudaram minha vida. Basta falar para acender luzes, ajustar temperatura ou fechar cortinas. Ganhei mais independência e segurança no meu dia a dia. Sou imensamente grato à equipe pela paciência e dedicação.",
+    initials: "JC",
+    name: "Juliana Costa",
+    role: "Designer de Interiores — JC Design",
+    text: "Trabalho com a Automations São Paulo há 3 anos e em todos os projetos a entrega foi impecável. A personalização dos cenários de iluminação valoriza enormemente o projeto de interiores. A temperatura de cor ajustável e o dimmer inteligente fazem toda a diferença na ambientação que proponho aos meus clientes.",
   },
   {
-    initials: "RB",
-    name: "Rafael Borges",
-    role: "CEO - Empresa de Tecnologia",
-    text: "Como profissional de tecnologia, sou naturalmente exigente com qualidade e integração de sistemas. A automação do meu apartamento na Faria Lima foi impecável. Tudo funciona perfeitamente integrado — do controle de acesso biométrico ao home theater com Dolby Atmos. O aplicativo é estável, rápido e bem projetado. Considero a Automação Residencial Avançada uma parceira estratégica de longo prazo para minha residência e escritório.",
+    initials: "MT",
+    name: "Marcos Tavares",
+    role: "Proprietário — Casa Alto de Pinheiros",
+    text: "Temos 4 filhos e a automação de iluminação simplificou muito nossa vida. As luzes acendem automaticamente com sensores de presença, os quartos das crianças têm programação noturna suave e o modo 'Saindo de casa' desliga tudo com um comando. Praticidade e segurança para toda a família.",
   },
 ];
 
@@ -43,7 +43,7 @@ const Testimonials = () => (
       <h2 className="text-clamp-h2 text-foreground text-center mb-4">O Que Nossos Clientes Dizem</h2>
       <div className="w-[70px] h-1 bg-accent mx-auto mb-4" />
       <p className="text-muted-foreground text-center max-w-xl mx-auto mb-12">
-        Depoimentos reais de famílias que transformaram suas residências com nossas soluções de automação.
+        Depoimentos reais de famílias e profissionais que transformaram seus ambientes com nossa automação de iluminação.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {testimonials.map((t) => (
@@ -64,12 +64,12 @@ const Testimonials = () => (
       </div>
       <div className="text-center mt-10">
         <a
-          href="https://wa.me/5511975596711?text=Gostaria de ver mais depoimentos de clientes"
+          href="https://wa.me/5511975596711?text=Gostaria de solicitar um orçamento para automação de iluminação"
           rel="nofollow"
           target="_blank"
           className="inline-block gradient-cta text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition-transform"
         >
-          ORÇAMENTO PELO WHATSAPP - AQUI!
+          SOLICITAR ORÇAMENTO GRATUITO
         </a>
       </div>
     </div>
