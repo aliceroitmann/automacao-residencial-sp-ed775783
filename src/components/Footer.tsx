@@ -11,11 +11,17 @@ const footerServices = [
   "Automação de Iluminação",
   "Cortinas Motorizadas",
   "Áudio e Vídeo Multiroom",
+  "Home Theater e Cinema",
   "Climatização Inteligente",
   "Segurança Eletrônica",
   "Controle de Acesso",
   "Cenários Personalizados",
   "Internet Cabeada e Wi-Fi",
+  "Assistente de Voz",
+  "Automação para AIRBNB",
+  "Automação para BOOKING",
+  "Automação de Piscina e Jardim",
+  "Energia Solar com Automação",
 ];
 
 const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
