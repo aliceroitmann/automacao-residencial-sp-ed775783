@@ -37,6 +37,14 @@ const About = () => (
           >
             ORÇAMENTO PELO WHATSAPP - AQUI!
           </a>
+          <a
+            href="https://automacaoresidencial.app.br/automacao-residencial-em-jundiai-sp/"
+            target="_blank"
+            rel="dofollow"
+            className="inline-block gradient-cta text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition-transform mt-4 ml-0 sm:ml-4"
+          >
+            Automação Residencial em Jundiaí SP
+          </a>
         </div>
         <div className="rounded-2xl h-[350px] lg:h-[450px] overflow-hidden">
           <img
