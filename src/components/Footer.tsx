@@ -106,8 +106,16 @@ const Footer = () => (
                 (11) 97559-6711
               </a>
             </li>
-            <li>✉️ contato@automacaorresidencialspsp.com.br</li>
-            <li>🌐 www.automacaorresidencialspsp.com.br</li>
+            <li>✉️{" "}
+              <a href="mailto:automacaoresidencialssp@gmail.com" className="hover:text-accent transition-colors">
+                automacaoresidencialssp@gmail.com
+              </a>
+            </li>
+            <li>🌐{" "}
+              <a href="https://automacaoresidencial.app.br/" target="_blank" rel="noopener" className="hover:text-accent transition-colors">
+                automacaoresidencial.app.br
+              </a>
+            </li>
           </ul>
           <div className="mt-4">
             <p className="font-semibold text-sm mb-1">Área de Atendimento:</p>
