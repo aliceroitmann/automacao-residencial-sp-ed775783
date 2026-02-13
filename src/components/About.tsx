@@ -38,10 +38,13 @@ const About = () => (
             ORÇAMENTO PELO WHATSAPP - AQUI!
           </a>
         </div>
-        <div className="gradient-card-1 rounded-2xl h-[350px] lg:h-[450px] flex items-center justify-center">
-          <p className="text-white text-2xl font-poppins font-bold text-center px-8">
-            NOSSO SHOWROOM<br />EM SÃO PAULO
-          </p>
+        <div className="rounded-2xl h-[350px] lg:h-[450px] overflow-hidden">
+          <img
+            src="/images/about-living-room.webp"
+            alt="Sala de estar ampla com automação residencial inteligente em São Paulo"
+            loading="lazy"
+            className="w-full h-full object-cover rounded-2xl"
+          />
         </div>
       </div>
     </div>
