@@ -1,19 +1,11 @@
 import { ChevronDown } from "lucide-react";
-import heroBg from "@/assets/hero-bg.webp";
 
 const WA_LINK = "https://api.whatsapp.com/send?phone=5511975596711&text=Venho+pelo+site+Automacao+Residencial+LB+Oficial.+Quero+informacoes+sobre+Orcamentos+e+seus+servicos.+Podemos+conversar?";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen gradient-hero flex items-center justify-center text-white text-center px-4 overflow-hidden">
-      <img
-        src={heroBg}
-        alt=""
-        aria-hidden="true"
-        loading="eager"
-        className="absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none"
-      />
-      <div className="relative z-10 max-w-4xl mx-auto animate-fade-in-up">
+    <section className="relative min-h-screen gradient-hero flex items-center justify-center text-white text-center px-4">
+      <div className="max-w-4xl mx-auto animate-fade-in-up">
         <h1 className="text-clamp-h1 font-poppins font-bold leading-tight mb-6">
           Transforme Seus Ambientes com Iluminação Inteligente — Automação de Iluminação em Indaiatuba SP
         </h1>
