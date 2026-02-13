@@ -1,7 +1,7 @@
 const stats = [
-  { number: "500+", label: "Projetos de Automação Realizados" },
-  { number: "200+", label: "Residências Transformadas" },
-  { number: "15+", label: "Anos de Experiência" },
+  { number: "400+", label: "Projetos de Iluminação Realizados" },
+  { number: "250+", label: "Residências Transformadas" },
+  { number: "12+", label: "Anos de Experiência" },
   { number: "98%", label: "Satisfação dos Clientes" },
 ];
 
