@@ -223,7 +223,7 @@ const ServiceCardComponent = ({ service }: { service: ServiceCard }) => {
       <div className="p-6 flex flex-col flex-1">
         <h3 className="text-clamp-h3 text-foreground mb-3">
           {service.externalLink ? (
-            <a href={service.externalLink} target="_blank" rel="noopener" className="hover:text-primary-vibrant transition-colors">
+            <a href={service.externalLink} target="_blank" rel="dofollow" className="hover:text-primary-vibrant transition-colors">
               {service.title}
             </a>
           ) : (
@@ -252,7 +252,7 @@ const ServiceCardComponent = ({ service }: { service: ServiceCard }) => {
           <a
             href={service.externalLink}
             target="_blank"
-            rel="noopener"
+            rel="dofollow"
             className="text-primary-vibrant text-sm font-medium mb-4 inline-block hover:underline"
           >
             Saiba mais sobre este serviço →
