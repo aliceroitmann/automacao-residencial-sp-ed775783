@@ -1,36 +1,40 @@
+import { lazy, Suspense } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Credibility from "@/components/Credibility";
-import Benefits from "@/components/Benefits";
-import HighEnd from "@/components/HighEnd";
-import Apartments from "@/components/Apartments";
-import About from "@/components/About";
-import Process from "@/components/Process";
-import Technologies from "@/components/Technologies";
-import Testimonials from "@/components/Testimonials";
-import Differentials from "@/components/Differentials";
-import FAQ from "@/components/FAQ";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+
+const Credibility = lazy(() => import("@/components/Credibility"));
+const Benefits = lazy(() => import("@/components/Benefits"));
+const HighEnd = lazy(() => import("@/components/HighEnd"));
+const Apartments = lazy(() => import("@/components/Apartments"));
+const About = lazy(() => import("@/components/About"));
+const Process = lazy(() => import("@/components/Process"));
+const Technologies = lazy(() => import("@/components/Technologies"));
+const Testimonials = lazy(() => import("@/components/Testimonials"));
+const Differentials = lazy(() => import("@/components/Differentials"));
+const FAQ = lazy(() => import("@/components/FAQ"));
+const Contact = lazy(() => import("@/components/Contact"));
+const Footer = lazy(() => import("@/components/Footer"));
 
 const Index = () => {
   return (
     <main>
       <Header />
       <Hero />
-      <Credibility />
-      <Benefits />
-      <HighEnd />
-      <Apartments />
-      <About />
-      <Process />
-      <Technologies />
-      <Testimonials />
-      <Differentials />
-      <FAQ />
-      <Contact />
-      <Footer />
+      <Suspense fallback={null}>
+        <Credibility />
+        <Benefits />
+        <HighEnd />
+        <Apartments />
+        <About />
+        <Process />
+        <Technologies />
+        <Testimonials />
+        <Differentials />
+        <FAQ />
+        <Contact />
+        <Footer />
+      </Suspense>
       <FloatingButtons />
     </main>
   );
