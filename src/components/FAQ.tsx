@@ -1,10 +1,12 @@
+const WA_LINK = "https://api.whatsapp.com/send?phone=5511975596711&text=Venho+pelo+site+Automacao+Residencial+LB+Oficial.+Quero+informacoes+sobre+Orcamentos+e+seus+servicos.+Podemos+conversar?";
+
 const faqs = [
   {
     q: "O que é automação de iluminação inteligente?",
     a: "Automação de iluminação inteligente é a integração de tecnologias que permitem controlar toda a iluminação da sua residência de forma centralizada — por aplicativo, comandos de voz, sensores automáticos ou painéis touch. Você pode ajustar intensidade, cor, temperatura de cor, criar cenários personalizados e programar horários, tudo pelo smartphone ou por voz. A tecnologia proporciona conforto, economia de energia de até 70% e valorização significativa do imóvel.",
   },
   {
-    q: "Quanto custa a automação de iluminação em São Paulo?",
+    q: "Quanto custa a automação de iluminação em Indaiatuba?",
     a: "O investimento varia conforme o tamanho do imóvel e o nível de sofisticação desejado. Para apartamentos de 60 a 100m², projetos de iluminação inteligente partem de R$ 8.000 a R$ 20.000. Casas de médio porte entre 150 e 250m² ficam na faixa de R$ 25.000 a R$ 60.000. Para residências de alto padrão acima de 300m², projetos premium ultrapassam R$ 80.000. Oferecemos orçamentos transparentes e projetos modulares — você pode começar com o essencial e expandir gradualmente.",
   },
   {
@@ -24,8 +26,8 @@ const faqs = [
     a: "Sim, significativamente! A combinação de LEDs inteligentes, sensores de presença, sensores de luminosidade e programação automática pode reduzir o consumo de energia com iluminação em até 70%. Luzes desligam automaticamente em ambientes vazios, a intensidade se ajusta conforme a luz natural e cenários econômicos programados para horários de pico garantem máxima eficiência. O retorno do investimento ocorre tipicamente em 2 a 3 anos.",
   },
   {
-    q: "Vocês atendem toda a região de São Paulo?",
-    a: "Sim! Atendemos toda a cidade de São Paulo — zona sul, norte, leste, oeste e centro — além da região metropolitana, ABC Paulista (Santo André, São Bernardo, São Caetano), Guarulhos, Osasco, Barueri, Alphaville e Santana de Parnaíba. No interior, cobrimos Campinas, São José dos Campos, Jundiaí, Sorocaba e região. No litoral, atendemos Santos, Guarujá e Praia Grande. Realizamos visitas técnicas gratuitas em toda a área de atendimento.",
+    q: "Vocês atendem toda a região de Indaiatuba?",
+    a: "Sim! Atendemos Indaiatuba e toda a região, incluindo Itu, Campinas, Salto, Americana, Sumaré, Hortolândia, Paulínia, Jaguariúna, Holambra, Vinhedo e Valinhos. Realizamos visitas técnicas gratuitas em toda a área de atendimento.",
   },
   {
     q: "Qual a garantia e suporte pós-instalação?",
@@ -40,7 +42,7 @@ const FAQ = () => {
         <h2 className="text-clamp-h2 text-foreground text-center mb-4">Perguntas Frequentes</h2>
         <div className="w-[70px] h-1 bg-accent mx-auto mb-4" />
         <p className="text-muted-foreground text-center mb-12">
-          Respostas para as dúvidas mais comuns sobre automação de iluminação inteligente em São Paulo.
+          Respostas para as dúvidas mais comuns sobre automação de iluminação inteligente em Indaiatuba SP.
         </p>
         <div className="space-y-4">
           {faqs.map((faq, i) => (
@@ -56,7 +58,7 @@ const FAQ = () => {
         </div>
         <div className="text-center mt-10">
           <a
-            href="https://wa.me/5511975596711?text=Gostaria de tirar mais dúvidas sobre automação de iluminação"
+            href={WA_LINK}
             rel="nofollow"
             target="_blank"
             className="inline-block gradient-cta text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition-transform"

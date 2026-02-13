@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { ArrowUp } from "lucide-react";
 
+const WA_LINK = "https://api.whatsapp.com/send?phone=5511975596711&text=Venho+pelo+site+Automacao+Residencial+LB+Oficial.+Quero+informacoes+sobre+Orcamentos+e+seus+servicos.+Podemos+conversar?";
+
 const FloatingButtons = () => {
   const [showTop, setShowTop] = useState(false);
 
@@ -12,9 +14,8 @@ const FloatingButtons = () => {
 
   return (
     <>
-      {/* WhatsApp */}
       <a
-        href="https://wa.me/5511975596711?text=Olá! Vim pelo site e gostaria de solicitar um orçamento para automação residencial."
+        href={WA_LINK}
         rel="nofollow"
         target="_blank"
         aria-label="WhatsApp"
@@ -23,7 +24,6 @@ const FloatingButtons = () => {
         💬
       </a>
 
-      {/* Back to top */}
       {showTop && (
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

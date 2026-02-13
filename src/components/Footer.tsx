@@ -9,14 +9,19 @@ const footerNav = [
 ];
 
 const footerServices = [
-  "Automação de Iluminação Residencial",
-  "Cenários de Iluminação Personalizados",
-  "Iluminação para Casas de Alto Padrão",
-  "Iluminação para Apartamentos",
-  "Iluminação Paisagística Automatizada",
-  "Integração com Assistentes de Voz",
-  "Sensores de Presença e Luminosidade",
-  "Retrofit de Iluminação Inteligente",
+  { label: "Automação de Iluminação", url: "https://automacaoresidencial.app.br/servicos/automacao-iluminacao/" },
+  { label: "Home Theater e Cinema", url: "https://automacaoresidencial.app.br/servicos/home-theater-cinema/" },
+  { label: "Som Ambiente", url: "https://automacaoresidencial.app.br/servicos/som-ambiente-automacao/" },
+  { label: "Sistema de Segurança", url: "https://automacaoresidencial.app.br/servicos/sistema-de-seguranca/" },
+  { label: "Ar Condicionado", url: "https://automacaoresidencial.app.br/servicos/automacao-de-ar-condicionado/" },
+  { label: "Controle de Acesso", url: "https://automacaoresidencial.app.br/servicos/controle-de-acesso/" },
+  { label: "Automação Airbnb", url: "https://automacaoresidencial.app.br/servicos/automacao-airbnb/" },
+  { label: "Automação Booking", url: "https://automacaoresidencial.app.br/servicos/automacao-booking/" },
+  { label: "Persianas e Cortinas", url: "https://automacaoresidencial.app.br/servicos/automacao-persianas-e-cortinas/" },
+  { label: "Internet e Wi-Fi", url: "https://automacaoresidencial.app.br/servicos/internet-cabeada-e-wi-fi/" },
+  { label: "Assistente de Voz", url: "https://automacaoresidencial.app.br/servicos/assistente-de-voz/" },
+  { label: "Piscina e Jardim", url: "https://automacaoresidencial.app.br/automacao-piscina-e-jardim/" },
+  { label: "Energia Solar", url: "https://automacaoresidencial.app.br/servicos/energia-solar-com-automacao/" },
 ];
 
 const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -33,10 +38,10 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
         <div>
-          <h3 className="font-poppins font-bold text-lg mb-1">Automations São Paulo</h3>
+          <h3 className="font-poppins font-bold text-lg mb-1">Automação Residencial em Indaiatuba</h3>
           <div className="w-10 h-1 bg-accent mb-4" />
           <p className="text-sm opacity-80 leading-relaxed">
-            Especialistas em automação de iluminação inteligente residencial. Transformamos ambientes com tecnologia de ponta, proporcionando conforto, economia e sofisticação para toda a região de São Paulo.
+            Especialistas em automação de iluminação inteligente residencial. Transformamos ambientes com tecnologia de ponta, proporcionando conforto, economia e sofisticação para Indaiatuba e toda a região.
           </p>
         </div>
 
@@ -63,8 +68,10 @@ const Footer = () => (
           <div className="w-10 h-1 bg-accent mb-4" />
           <ul className="space-y-2">
             {footerServices.map((s) => (
-              <li key={s}>
-                <span className="text-sm opacity-80">{s}</span>
+              <li key={s.label}>
+                <a href={s.url} target="_blank" rel="dofollow" className="text-sm opacity-80 hover:opacity-100 hover:text-accent transition-all">
+                  {s.label}
+                </a>
               </li>
             ))}
           </ul>
@@ -74,7 +81,7 @@ const Footer = () => (
           <h3 className="font-poppins font-bold text-lg mb-1">Entre em Contato</h3>
           <div className="w-10 h-1 bg-accent mb-4" />
           <ul className="space-y-3 text-sm opacity-80">
-            <li>📍 São Paulo - SP, Brasil</li>
+            <li>📍 Indaiatuba - SP, Brasil</li>
             <li>
               📱{" "}
               <a href="tel:+5511975596711" className="hover:text-accent transition-colors">
@@ -95,14 +102,14 @@ const Footer = () => (
           <div className="mt-4">
             <p className="font-semibold text-sm mb-1">Área de Atendimento:</p>
             <p className="text-xs opacity-70 leading-relaxed">
-              São Paulo Capital, Grande SP (Guarulhos, Osasco, ABC Paulista), Interior (Campinas, SJC, Jundiaí, Sorocaba), Litoral (Santos, Guarujá, Praia Grande).
+              Indaiatuba, Itu, Campinas, Salto, Americana, Sumaré, Hortolândia, Paulínia, Jaguariúna, Holambra, Vinhedo e Valinhos.
             </p>
           </div>
         </div>
       </div>
 
       <div className="border-t border-white/10 pt-6 text-center text-xs opacity-70">
-        <p>2026 - Automations São Paulo. Todos os direitos reservados.</p>
+        <p>2026 - Automação Residencial em Indaiatuba. Todos os direitos reservados.</p>
         <p className="mt-1">
           Criação e Otimização SEO -{" "}
           <a

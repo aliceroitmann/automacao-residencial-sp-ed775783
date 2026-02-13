@@ -26,8 +26,8 @@ const differentials = [
   },
   {
     icon: "📍",
-    title: "Atendimento em Toda São Paulo",
-    text: "Capital, região metropolitana, ABC Paulista, interior próximo e litoral. Equipe móvel com visitas técnicas gratuitas em toda a Grande São Paulo.",
+    title: "Atendimento em Indaiatuba e Região",
+    text: "Indaiatuba, Itu, Campinas, Salto, Americana, Sumaré, Hortolândia, Paulínia, Jaguariúna, Holambra, Vinhedo e Valinhos. Visitas técnicas gratuitas.",
   },
 ];
 
@@ -35,11 +35,11 @@ const Differentials = () => (
   <section className="py-20 bg-primary">
     <div className="container mx-auto px-4">
       <h2 className="text-clamp-h2 font-poppins font-bold text-white text-center mb-4">
-        Diferenciais da Automations São Paulo
+        Diferenciais da Automação Residencial em Indaiatuba
       </h2>
       <div className="w-[70px] h-1 bg-accent mx-auto mb-4" />
       <p className="text-white/80 text-center max-w-2xl mx-auto mb-12">
-        Por que somos a escolha certa para a automação de iluminação da sua residência em São Paulo.
+        Por que somos a escolha certa para a automação de iluminação da sua residência em Indaiatuba e região.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {differentials.map((d) => (
