@@ -112,7 +112,7 @@ const Footer = () => (
               </a>
             </li>
             <li>🌐{" "}
-              <a href="https://automacaoresidencial.app.br/" target="_blank" rel="noopener" className="hover:text-accent transition-colors">
+              <a href="https://automacaoresidencial.app.br/" target="_blank" rel="dofollow" className="hover:text-accent transition-colors">
                 automacaoresidencial.app.br
               </a>
             </li>

@@ -9,7 +9,7 @@ const About = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div className="space-y-5 text-muted-foreground leading-relaxed text-sm">
           <p>
-            Somos uma <a href="https://automacaoresidencial.app.br/" target="_blank" rel="noopener" className="text-primary-vibrant hover:underline font-medium">empresa especializada em soluções inteligentes personalizadas para residências</a>, com mais de 15 anos de experiência no mercado paulista. Reconhecida como referência em automação residencial em São Paulo, nossa trajetória é marcada pela entrega de projetos que combinam inovação tecnológica, estética sofisticada e funcionalidade excepcional.
+            Somos uma <a href="https://automacaoresidencial.app.br/" target="_blank" rel="dofollow" className="text-primary-vibrant hover:underline font-medium">empresa especializada em soluções inteligentes personalizadas para residências</a>, com mais de 15 anos de experiência no mercado paulista. Reconhecida como referência em automação residencial em São Paulo, nossa trajetória é marcada pela entrega de projetos que combinam inovação tecnológica, estética sofisticada e funcionalidade excepcional.
           </p>
           <p>
             Nossa missão é transformar cada residência em um lar inteligente que proporciona conforto absoluto, segurança reforçada e economia expressiva de energia. Desenvolvemos projetos sob medida que respeitam a identidade de cada família, adaptando a tecnologia ao cotidiano dos moradores.
