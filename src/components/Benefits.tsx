@@ -1,3 +1,5 @@
+const WA_LINK = "https://api.whatsapp.com/send?phone=5511975596711&text=Venho+pelo+site+Automacao+Residencial+LB+Oficial.+Quero+informacoes+sobre+Orcamentos+e+seus+servicos.+Podemos+conversar?";
+
 const benefits = [
   {
     icon: "🎛️",
@@ -44,7 +46,7 @@ const Benefits = () => (
       </h2>
       <div className="w-[70px] h-1 bg-accent mx-auto mb-4" />
       <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-        Descubra como a automação de iluminação em São Paulo pode transformar o conforto, a economia e a segurança da sua residência.
+        Descubra como a automação de iluminação em Indaiatuba pode transformar o conforto, a economia e a segurança da sua residência.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {benefits.map((b) => (
@@ -60,7 +62,7 @@ const Benefits = () => (
       </div>
       <div className="text-center mt-10">
         <a
-          href="https://wa.me/5511975596711?text=Gostaria de saber mais sobre os benefícios da automação de iluminação"
+          href={WA_LINK}
           rel="nofollow"
           target="_blank"
           className="inline-block gradient-cta text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition-transform"

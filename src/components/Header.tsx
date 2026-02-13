@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
+const WA_LINK = "https://api.whatsapp.com/send?phone=5511975596711&text=Venho+pelo+site+Automacao+Residencial+LB+Oficial.+Quero+informacoes+sobre+Orcamentos+e+seus+servicos.+Podemos+conversar?";
+
 const navLinks = [
   { label: "Benefícios", href: "#beneficios" },
   { label: "Casas", href: "#casas" },
@@ -41,7 +43,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 h-full flex items-center justify-between">
         <a href="#" className="font-poppins font-bold text-xl md:text-2xl text-white">
-          Automations <span className="text-accent">São Paulo</span>
+          Automação Residencial <span className="text-accent">Indaiatuba</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-5">
@@ -62,7 +64,7 @@ const Header = () => {
             <Phone size={14} /> (11) 97559-6711
           </span>
           <a
-            href="https://wa.me/5511975596711?text=Olá! Vim pelo site e gostaria de solicitar um orçamento para automação de iluminação."
+            href={WA_LINK}
             rel="nofollow"
             target="_blank"
             className="gradient-cta text-white font-bold text-xs px-4 py-2 rounded-full hover:scale-105 transition-transform"
@@ -94,7 +96,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="https://wa.me/5511975596711?text=Olá! Vim pelo site e gostaria de solicitar um orçamento para automação de iluminação."
+              href={WA_LINK}
               rel="nofollow"
               target="_blank"
               className="gradient-cta text-white font-bold px-6 py-3 rounded-full mt-4"
